@@ -6,7 +6,10 @@
 
 ## 📸 Screenshot Preview
 
-*(Add a screenshot here after deploying — optional but highly recommended)*
+*![image](https://github.com/user-attachments/assets/1ecd2fc0-3e9a-413b-a573-fb20c32d8c8b)*
+*![image](https://github.com/user-attachments/assets/78e8b918-b23d-49e3-b506-5fbaed078dcb)*
+*![image](https://github.com/user-attachments/assets/3265f49d-89e1-4178-8443-4a1cdabb3d87)*
+
 
 ---
 
