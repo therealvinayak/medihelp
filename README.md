@@ -41,5 +41,5 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/medihelp.git
+git clone https://github.com/therealvinayak/medihelp.git
 cd medihelp
