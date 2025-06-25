@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# 🏥 MediHelp – AI Medical Note Summarizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**MediHelp** is a responsive, user-friendly web application that helps patients simplify complex doctor consultation notes into easy-to-understand summaries using AI. Built with React and Tailwind CSS, the app is designed for clarity, accessibility, and trust — especially for users with low medical literacy.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📸 Screenshot Preview
 
-### `npm start`
+*(Add a screenshot here after deploying — optional but highly recommended)*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- 📤 Upload doctor notes in `.txt`, `.pdf`, `.jpg`, `.jpeg`, `.png`
+- 📝 Paste notes manually using the text input
+- 👨‍⚕️ Mode toggle: **Patient Mode** (simple) vs **Doctor Mode** (technical)
+- 🤖 AI-generated summary *(coming soon with GPT-4)*
+- 🧾 Summary includes: diagnosis, medications, lifestyle steps
+- 📱 Fully responsive: works beautifully on phones, tablets, and desktops
+- 🎨 Soft healthcare-themed UI with icons and micro-interactions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧠 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Area        | Tech Used                      |
+|-------------|--------------------------------|
+| Frontend    | React, Tailwind CSS            |
+| Icons       | Lucide React                   |
+| Backend *(Planned)* | FastAPI, OpenAI API, Tesseract OCR |
+| Deployment *(Planned)*  | Vercel or Netlify              |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Getting Started (Local Setup)
 
-### `npm run eject`
+### 1. Clone the Repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/your-username/medihelp.git
+cd medihelp
