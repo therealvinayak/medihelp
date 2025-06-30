@@ -86,7 +86,7 @@ function App() {
     const prompt = `You're an AI medical assistant. A patient has described their symptoms below. Based on that, suggest a possible diagnosis, list 1-2 commonly prescribed medications (with dosage), and provide 2-3 simple care or follow-up tips.\n\nPatient Symptoms:\n${symptomInput}\n\nRespond in a friendly but clear way. Mark clearly that this is not a real prescription.`;
 
     try {
-      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=`, {
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${process.env.REACT_APP_GEMINI_API_KEY}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
